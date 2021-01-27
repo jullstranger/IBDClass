@@ -1,0 +1,6 @@
+#!/bin/sh
+
+METHOD=$1
+TYPEI=$2
+
+R --no-save --slave --args $METHOD $TYPEI < RandomForestTraining.R

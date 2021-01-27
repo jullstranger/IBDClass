@@ -1,0 +1,7 @@
+#!/bin/sh
+
+METHOD=$1
+TYPEI=$2
+NTREES=$3
+FILTER=$4
+R --no-save --slave --args $METHOD $TYPEI $NTREES $FILTER < RandomForestTest.R
